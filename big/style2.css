@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-container .sidebar {
+  height: 100vh;
+  width: 23%;
+  background-color: #2f3e4d;
+}
+.header .logo {
+  display: flex;
+}
+
+::placeholder {
+  color: white;
+}
+
+.main-container .chat {
+  height: 100vh;
+  width: 77%;
+}
+
+input[type="text"] {
+  margin: 7px;
+  padding: 8px;
+  width: 80%;
+  background-color: transparent;
+  outline: 2px solid white;
+  border: none;
+  color: white;
+}
+
+.main-container .sidebar .search .fa-plus {
+  color: white;
+  font-size: 20px;
+}
+
+.main-container .header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+h1 {
+  position: relative;
+  top: 15px;
+}
+.logo {
+  gap: 10px;
+}
+
+.notify .fa-bell {
+  position: relative;
+  left: -20px;
+}
+.notify {
+  color: white;
+  font-size: 18px;
+}
+
+.chat .date {
+  display: inline-block;
+
+  background-color: #e1f5fe;
+  color: grey;
+  border-radius: 25px;
+  width: 90px;
+  position: relative;
+  top: 20px;
+}
+.chat {
+  text-align: center;
+}
+
+.chat .header-2 {
+  text-align: left;
+  /* position: relative;
+     top:20px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+.chat .sender-name {
+  position: relative;
+  top: 40px;
+  right: -30px;
+  color: #a99d24;
+}
+
+.chat .info {
+  display: inline-block;
+
+  padding: 20px 50px;
+  border-radius: 10px;
+  position: relative;
+  top: 60px;
+
+  background-color: #20bdfe;
+}
+
+.chat .sender .info .fa-solid {
+  font-size: 50px;
+  color: white;
+}
+
+.chat .sender {
+  text-align: left;
+}
+/* for rms.html */
+
+.rms-header {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+
+.rms-inteface {
+  background-color: #629dcc;
+  /* height: 80vh;
+  position: relative;
+  top: -100px; */
+  border: 2px solid white;
+}
+
+.rms-header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rms .rms-inteface .rms-interface-content .interface-para {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 80px;
+  margin: 100px;
+}
+
+ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li .fa-circle-check {
+  /* background-color: #fd6c04; */
+  color: #fd6c04;
+  padding: 10px;
+}

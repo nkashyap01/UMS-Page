@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+      .testing1{
+        border:1px solid red;
+        background-color: red;
+        position: relative;
+        z-index:5;
+        color:black;
+        width:300px;
+        height:200px;
+      }
+
+      .hide{
+        display: none;
+      }
+
+      .main-container{
+        height:100vh;
+         
+        overflow-y:auto;
+
+      }
+
+  ::-webkit-scrollbar {
+  width: 10px;
+}
+
+ 
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+ 
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+    </style>
+     
+
+     
+</head>
+ 
+<div class="main-container">
+
+     <nav class="navbar">
+        <div class="navdiv">
+<div class="logo">
+    <img height="70px" width="220px" src="https://ums.lpu.in/lpuums/Dashboard/img/new-logo.png">
+</img>
+</div>
+
+<i class="iconsminds-bookmark" style="user-select: auto;"></i>
+
+<div class="list">
+    
+            <select class="krishna"> <option id="academic">Academics</option>
+             
+            </select>
+           
+            <select> <option>Administrative</option>
+            </select>
+            <select> <option>Important Links</option>
+            </select>
+            <select> <option>Student Services</option>
+            </select>
+            <select> <option>Quick Links</option>
+            </select>
+
+          
+        
+</div>
+<p id="show"> This is para</p>
+
+
+            
+            <div class="info">
+              <p> Neha Kumari<br>
+            <span class="inner"> Reg NO:12208483|Section:D2215
+            <br>MCA (p164-NN1) </span></p>  
+            
+            </div>
+            <div class="out">
+                <div class="pic">
+                    <img height="100px" width="160px" src="/images/lpu-images.jpeg"></div>
+                    <div class="sign">
+                    <button>Sign out</button>
+                
+                </div>
+            </div>
+        </div>
+
+     </nav>
+
+      
+     <aside>
+        <div  class="sidebar">
+          <div class="sidebar-element" >
+            <a href="#"> Dashboard</a> 
+            <a href="#"> UMS Home</a>
+            <a href="lpulive.html"> LPU Live</a>
+            <a href="#"> LPU Touch</a>
+            <a href="#"> My Class</a>
+            <a href="#"> YourDost</a>
+          </div>
+        </div>
+     </aside>
+
+<div class="btn-nav">
+    <button class="btn"> &lt; </button>  
+</div>
+
+<div class="content-header">
+<p> Important link and information</p>
+</div>
+
+<hr>
+
+    <div class="important-links">
+
+       
+        
+            <span>
+                <button > Hostel booking</button>
+            </span>
+            <button>RMS</button>
+            <button>Fee Dashboard</button>
+            <button>Academic Calendar</button>
+            
+            <button>Emergency Numbers</button>
+            <button> Certificate Request</button>
+            <button>Part-time job Application</button>
+            <button style="background-color:#27A343;font-size:12px;position:relative;z-index:5;" id="whatsapp-button"> WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+
+            <div class="whatsapp">
+              <div class="close">
+               <p style="padding-top:10px; font-size:18px;">WhatsApp Notification Prefrence</p>
+               <button class="close-button" style="background-color: white; color:grey;"> <i class="fa-solid fa-xmark"></i></button>
+               
+              </div>
+              <p style="border-bottom: 1px solid grey; position: relative; top:-15px;"></p>
+              <div style="position: relative;top:-30px;">
+               
+               <p style="position:relative;top:-1px;">Appreciating fast and effective communication, it is highly recommended that you enable Whatsapp notifications for important updates</p>
+              <input type="radio">
+  <label>Enable WhatsApp notifications on current number 7004291928</label>
+<br>
+  <input type="radio">
+  <label> Enable WhatsApp notifications on other number</label>
+<br>
+<input type="text" placeholder="Enter your Alternative Contact No">
+<br>
+  <input type="radio">
+  <label>I don't want WhatsApp notifications. </label>
+  <br>
+  <input type="radio">
+  <label> I don't have any number with WhatsApp activated on it.</label>
+  <br>
+  <button > Save</button>
+  <button class="close-button"> Close</button>
+              </div>
+ 
+            </div>
+        
+    </div>
+
+
+ <div class="message-box">
+    
+   <div class="message-box-one">
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true"  space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+    <swiper-slide><img src="images/1.png" alt="image-first" /> </swiper-slide>
+    <swiper-slide><img src="images/2.png" alt="image-second" /> </swiper-slide>
+    <swiper-slide><img src="images/3.png" alt="image-third" /> </swiper-slide>
+    <swiper-slide><img src="images/4.png" alt="image-fourth" /> </swiper-slide>
+    <swiper-slide><img src="images/5.png" alt="image-fifth" /> </swiper-slide>
+    <swiper-slide><img src="images/6.png" alt="image-sixth" /> </swiper-slide>
+    <swiper-slide><img src="images/7.png" alt="image-seven" /> </swiper-slide>
+    <swiper-slide><img src="images/8.png" alt="image-eight" /> </swiper-slide>
+    </swiper-container>
+  </div>
+
+        <div class="message-box-two">
+        </div>
+
+
+        <div class="message-box-three">
+
+          <div class="inner-three">
+
+            <div class="first">
+              <div>0%</div>
+            </div>
+  
+            <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+  
+            <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+  
+  
+            <div class="three">
+              <button>IP</button>
+              <button>Syllabus</button>
+              <button>Timetable</button>
+              <button class="view-book">View Books</button>
+            </div>
+  
+            </div>
+  
+  
+            <div class="inner-three">
+              <div class="first">
+                <div>0%</div>
+              </div>
+              <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+              <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+              <div class="three">
+                <button>IP</button>
+                <button>Syllabus</button>
+                <button>Timetable</button>
+                <button class="view-book">View Books</button>
+              </div>
+              </div>
+  
+  
+              <div class="inner-three">
+                <div class="first">
+                  <div>0%</div>
+                </div>
+                <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+                <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+                <div class="three">
+                  <button>IP</button>
+                  <button>Syllabus</button>
+                  <button>Timetable</button>
+                  <button class="view-book">View Books</button>
+                </div>
+                </div>
+  
+  
+                <div class="inner-three">
+                  <div class="first">
+                    <div>0%</div>
+                  </div>
+                  <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+                  <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+                  <div class="three">
+                    <button>IP</button>
+                    <button>Syllabus</button>
+                    <button>Timetable</button>
+                    <button class="view-book">View Books</button>
+                  </div>
+                  </div>
+  
+                  <div class="inner-three">
+                    <div class="first">
+                      <div>0%</div>
+                    </div>
+                    <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+                    <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+                    <div class="three">
+                      <button>IP</button>
+                      <button>Syllabus</button>
+                      <button>Timetable</button>
+                      <button class="view-book">View Books</button>
+                    </div>
+                    </div>
+  
+                    <div class="inner-three">
+                      <div class="first">
+                        <div>0%</div>
+                      </div>
+                      <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+                      <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+                      <div class="three">
+                        <button>IP</button>
+                        <button>Syllabus</button>
+                        <button>Timetable</button>
+                        <button class="view-book">View Books</button>
+                      </div>
+                      </div>
+  
+                      <div class="inner-three">
+                        <div class="first">
+                          <div>0%</div>
+                        </div>
+                        <div class="second"><p>CAP75: STYLING AND SCRIPTING</p>
+                        <p class="second-para">Class Today at : 02-03 PM Room:38-701</p></div>
+                        <div class="three">
+                          <button>IP</button>
+                          <button>Syllabus</button>
+                          <button>Timetable</button>
+                          <button class="view-book">View Books</button>
+                        </div>
+                        </div>
+  
+
+
+
+         </div>
+
+         <div class="message-box-four">
+            <button class="fee-btn"> fee</button>
+            <p class="para"style="font-size: 30px;"  >   96900/-   </p> 
+            <p class="para"><button> Pay Online</button> </p>
+            <p class="para"><img class="fee" src="/images/test.png" alt="test-image"> </p>
+            <p class="para"> Fee Notification </p>
+         <footer >
+            <div class="transaction">
+            <button class="fee-tran"> Transaction</button>    
+            </div>
+         </footer>
+         </div>
+
+
+        </div>
+
+
+
+        <div class="event">
+         
+          <div class="event-one">
+
+            <button class="fee-btn">  Pending Assignments</button>
+
+          </div>
+
+          <div class="event-second">
+            
+          </div>
+
+          <div class="event-three">
+            
+          </div>
+
+
+
+
+        </div>
+
+
+        <h3 class="Placement">Placement Details</h3>
+
+        <hr id="line">
+
+
+
+        <div class="placed">
+
+          <div class="placed-one">
+
+
+          </div>
+
+          <div class="placed-second">
+
+            
+          </div>
+
+        </div>
+
+
+        <p class="examination">Examination & University Guidlines</p>
+
+        <hr id="line">
+
+
+
+        <div class="plan">
+
+          <div class="plan-first">
+
+            <div class="plan-test">
+              <img height="20px" width="20px" src="/images/schloarship-icons.png">
+              <h6>Schloarship Guidlines</h6>
+            </div>
+            <div class="plan-test">
+              <img height="20px" width="20px" src="/images/book-icons.png">
+             <h6>Academic Rules </h6>
+
+            </div>
+            <div class="plan-test"> 
+              <img height="20px" width="20px" src="/images/Receipt-4-icon.png">
+              <h6> Examination Rules</h6>
+            </div>
+            <div class="plan-test">
+              4
+            </div>
+            <div class="plan-test">
+              5
+            </div>
+            <div class="plan-test">
+              6
+            </div>
+
+          </div>
+          <div class="plan-second">
+
+          </div>
+        </div>
+
+
+
+        <div class="imp">
+          <p class="anouncement">
+            Important Anouncement
+          </p>
+  
+          <hr class="line">
+        </div>
+
+
+        <div class="big-message">
+
+          <div class="big-inner ">
+            <button class="imp-btn"> Announcements</button>
+            <ul>
+              <li class="list"> Academic(43)</li>
+              <li class="list"> Administrative/Misc(9)</li>
+              <li class="list">Co-curricular/sports/cultural(38)</li>
+              <li class="list"> Examination(1)</li>
+              <li class="list"> Placement(129)</li>
+            </ul>
+<hr class="line-2" >
+<p> <span style="color:red;">New</span> <b> Don't miss your chance to study in Canada</b>  oct05.2023</p>
+<p> Dear Students</p>
+<p style="position:relative;top:20px"> Don't Miss out on Canada's 2024 Intake!</p>
+<p style="position:relative;top:50px">  
+Study Abroad in Canada:Jan & May 2024 - Apply!</p>
+<p style="position:relative;top:70px">  
+   Jan & May 2024 intakes are here. Don't miss your chance to study in Canada. Visit Grad Glob Study Abroad Office. Unicenter Mall, Block 15, and embark on your international education journey.</p>
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+background: linear-gradient(135deg,white,orangered);
+
+}
+.container{
+    width:400px;
+    height:500px;
+    background-color:white;
+    text-align:center;
+    margin-left:30%;
+}
+.fname{
+    width:120px;
+    height:26px;
+}
+.lname{
+    width:120px;
+    height:26px;
+}
+.fnm{
+    display:flex;
+    margin-left:33px;
+
+}
+.input .inpt{
+    width:300px;
+    height:26px;
+
+}
