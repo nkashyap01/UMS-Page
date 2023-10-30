@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .main-container {
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,7 @@
 }
 
 input[type="text"] {
-  margin: 7px;
+  margin: 10px;
   padding: 8px;
   width: 80%;
   background-color: transparent;
@@ -112,41 +113,28 @@ h1 {
 .chat .sender {
   text-align: left;
 }
-/* for rms.html */
 
-.rms-header {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 10px;
-}
-
-.rms-inteface {
-  background-color: #629dcc;
-  /* height: 80vh;
-  position: relative;
-  top: -100px; */
-  border: 2px solid white;
-}
-
-.rms-header-content {
+.main-container .search .users .first {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* border: 1px solid white; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  margin-top: 15px;
 }
 
-.rms .rms-inteface .rms-interface-content .interface-para {
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 80px;
-  margin: 100px;
+.main-container .search .users .first img {
+  width: 40px;
+  margin: 5px;
 }
 
-ul li {
-  list-style: none;
-  margin-top: 10px;
+.main-container .search .users .first h3 {
+  color: white;
+  font-size: bold;
+  margin: 1px;
 }
 
-ul li .fa-circle-check {
-  /* background-color: #fd6c04; */
-  color: #fd6c04;
-  padding: 10px;
+.main-container .search .users .first p {
+  margin: 1px;
+  color: white;
 }

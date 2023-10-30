@@ -1,68 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="main-container">
-        <!-- <aside> -->
-        <div class="sidebar">
-<div class="header">
-<div class="logo">
-<img src="../big/images/live-logo.png" height="40px" width="40px">
-<h1 style="color:white; font-size:16px"> LPU Live</h1>
-</div>
-<div class="notify">
-    <i  class="fa-regular fa-bell"></i>
-    <i class="fa-regular fa-user"></i>
-
-</div>
-</div>
-<hr style="border-bottom:1px solid grey;"/>
-<div class="search">
-    <i style="position:relative;left:35px;" class="fa-solid fa-magnifying-glass"></i>
-
-<input style="padding-left:30px;" type="text" placeholder="Members, groups and messages....(Ctrl+K)">
-<i class="fa-solid fa-plus "></i>
-</div>
-<div class="group">
-
-</div>
+      <!-- <aside> -->
+      <div class="sidebar">
+        <div class="header">
+          <div class="logo">
+            <img src="../big/images/live-logo.png" height="40px" width="40px" />
+            <h1 style="color: white; font-size: 16px">LPU Live</h1>
+          </div>
+          <div class="notify">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-regular fa-user"></i>
+          </div>
         </div>
-    <!-- </aside> -->
-        <div class="chat">
-            <div class="header-2">
-                <i style="position:relative;top:10px; left:20px; "class="fa-solid fa-arrow-left"></i> 
-               &emsp;&nbsp; <span style="font-size:20px;">  <b> DE521 - CAP774</b>     
-             </span><br> &emsp;&emsp;&nbsp;&nbsp; 66 Members <br/>
-        
-            </div> 
-        <h3 class="date"   > 2/9/2023</h3> 
-        <br/>
-        <br/>
-        <br>
-        <p > 1:25 PM
-            Chat Admin created a new group</p> 
-            <h3 class="date"   > 4/08/2023</h3> 
-<div class="sender">
-            <p class="sender-name"> Simaranpreet Kaur:30724</p>
+        <hr style="border-bottom: 1px solid grey" />
+        <div class="search">
+          <i
+            style="position: relative; left: 35px; color: white"
+            class="fa-solid fa-magnifying-glass"
+          ></i>
 
-            <div class="info">
-                <i class="fa-solid fa-file-pdf"></i>
-                <span> tables.ppt</span>
-                <br/>1.05MB
-                <i class="fa-solid fa-circle-down"></i>
+          <input
+            style="padding-left: 30px"
+            type="text"
+            placeholder="Members, groups and messages....(Ctrl+K)"
+            value=""
+          />
+
+          <i id="search-user" class="fa-solid fa-plus"></i>
+
+          <div
+            class="users"
+            style="
+              padding-top: 10px;
+              background-color: #092327;
+              height: 90vh;
+              overflow: scroll;
+            "
+          >
+            <!-- <div
+             class="first"
+            >
+              <img
+               
+                src="https://static.vecteezy.com/system/resources/previews/008/442/086/non_2x/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg"
+                alt="user"
+              />
+
+              <div>
+                <h3 >
+                  Saroj Kumar : 12208785
+                </h3>
+                <p>
+                  Ma'am you haven't send the ppt
+                </p>
+              </div>
             </div>
-            <div class="info">
-                where we upload a file  of CA1
-            </div>
-         </div>
-              
+ -->
+          </div>
         </div>
+        <div class="group"></div>
+      </div>
+      <!-- </aside> -->
+      <div class="chat">
+        <div class="header-2">
+          <i
+            style="position: relative; top: 10px; left: 20px"
+            class="fa-solid fa-arrow-left"
+          ></i>
+          &emsp;&nbsp;
+          <span style="font-size: 20px"> <b> DE521 - CAP774</b> </span><br />
+          &emsp;&emsp;&nbsp;&nbsp; 66 Members <br />
+        </div>
+        <h3 class="date">2/9/2023</h3>
+        <br />
+        <br />
+        <br />
+        <p>1:25 PM Chat Admin created a new group</p>
+        <h3 class="date">4/08/2023</h3>
+        <div class="sender">
+          <p class="sender-name">Simaranpreet Kaur:30724</p>
+
+          <div class="info">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span> tables.ppt</span>
+            <br />1.05MB
+            <i class="fa-solid fa-circle-down"></i>
+          </div>
+          <div class="info">where we upload a file of CA1</div>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script src="livescript.js"></script>
+  </body>
 </html>

@@ -41,7 +41,7 @@ async function fetchData() {
 
 fetchData();
 
-const sign = document.querySelector(".out .sign");
+const sign = document.querySelector(".out #signoutbtn");
 
 sign.addEventListener("click", function () {
   window.open("../index.html");
@@ -85,3 +85,5 @@ const closeButton2 = document.querySelector(
 closeButton2.addEventListener("click", function () {
   whatsappDiv.style.display = "none";
 });
+
+// lpu live javascript
