@@ -110,6 +110,7 @@ body {
   font-size: 11px;
   color: black;
   font-weight: bold;
+  border-bottom: 0.1px solid black;
 }
 
 .content-header {
@@ -545,7 +546,7 @@ swiper-slide img {
 }
 
 .important-links .whatsapp .close-button2 {
-  background-color:transparent;
+  background-color: transparent;
   color: blue;
-  border:1px solid blue;
+  border: 1px solid blue;
 }

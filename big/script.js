@@ -86,4 +86,13 @@ closeButton2.addEventListener("click", function () {
   whatsappDiv.style.display = "none";
 });
 
-// lpu live javascript
+// rms javascript
+
+
+// const agree = document.querySelector(
+//   ".rms .rms-inteface .rms-interface-content .interface-para .agree"
+// );
+
+// agree.addEventListener("click", function () {
+//   alert("Succesfully submitted");
+// });

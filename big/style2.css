@@ -6,9 +6,46 @@
 
 /* for rms */
 
-.rms-header {
+.rms .rms-header .rms-header-content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.rms-inteface {
+  height: 100vh;
+  background-color: #629dcc;
+}
+
+.rms-inteface .rms-interface-content .interface-para {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 50px;
+
+  padding: 100px;
+  left: 100px;
+  right: 30px;
+  height: 400px;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.rms-inteface .rms-interface-content .interface-para .list li {
+  padding: 10px;
+  list-style: none;
+}
+
+.rms-inteface .rms-interface-content .interface-para .agree {
+  background-color: #fd6c04;
+  /* border-radius:25px; */
+  color:white;
+  border:none;
+  padding:13px;
+  font-size:18px;
+   position:relative;
+   left:330px;
+
 }
 
 /* for lpulive */
