@@ -18,7 +18,11 @@ testBtn.addEventListener("click", function () {
     ".edit .one form #userpassword"
   ).value;
 
-  if (username == userid && password == userpass) {
+  if (userid == "12208483" && userpass == "neha123") {
+    window.open("/big/index.html");
+  } else if (userid == "12205884" && userpass == "riya123") {
+    window.open("/big/index.html");
+  } else if (userid == "12210885" && userpass == "supriya123") {
     window.open("/big/index.html");
   } else {
     alert("username or password is incorrect ❌");
