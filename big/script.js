@@ -88,7 +88,6 @@ closeButton2.addEventListener("click", function () {
 
 // rms javascript
 
-
 // const agree = document.querySelector(
 //   ".rms .rms-inteface .rms-interface-content .interface-para .agree"
 // );
